@@ -6,7 +6,8 @@ and get filetore to now server
 # odoo-on-ubuntu-restore-db   
 
 sudo su - postgres   
-createdb your_db_name   
+createdb your_db_name     
+sudo chown postgres:postgres /tmp/odoo_restore/dump.sql    
 psql your_db_name < /tmp/odoo_restore/dump.sql   
 exit   
 sudo mkdir -p odoo18/.local/share/Odoo/filestore/retailed_db   
