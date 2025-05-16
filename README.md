@@ -1,5 +1,6 @@
 #backup db postgres ubuntu server   
-root@nobrand-prod:/opt/odoo# pg_dump -U odoo -h localhost -W nobrand_prod > nobrand_backup.sql
+root@nobrand-prod:/opt/odoo# pg_dump -U odoo -h localhost -W nobrand_prod > nobrand_backup.sql   
+and get filetore to now server
 
 
 # odoo-on-ubuntu-restore-db   
