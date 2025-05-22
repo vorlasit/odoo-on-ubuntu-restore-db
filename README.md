@@ -4,10 +4,7 @@ and get filetore to now server
 
 
 # odoo-on-ubuntu-restore-db    
-# allow postgres user    
-root@docker:/opt/odoo15# sudo chown postgres:postgres /opt/odoo15   
-root@docker:/opt/odoo15# sudo chmod -R 755 /opt/odoo15   
-
+# allow postgres user     
 sudo su - postgres   
 createdb your_db_name     
 sudo chown postgres:postgres /tmp/odoo_restore/dump.sql    
