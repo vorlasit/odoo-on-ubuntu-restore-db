@@ -2,6 +2,8 @@
 root@nobrand-prod:/opt/odoo# pg_dump -U odoo -h localhost -W nobrand_prod > nobrand_backup.sql   
 and get filetore to now server
 
+# ✅ วิธีที่: ใช้ scp คัดลอกไฟล์จาก Server มาที่ Desktop
+  scp user@192.168.1.100:/home/user/data/report.pdf ~/Downloads/
 
 # odoo-on-ubuntu-restore-db    
 # allow postgres user     
