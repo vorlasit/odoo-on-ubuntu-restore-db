@@ -7,9 +7,11 @@
 
 # odoo-on-ubuntu-restore-db    
 # allow postgres user     
+
+    sudo chown postgres:postgres /tmp/odoo_restore/dump.sql    
+    
     sudo su - postgres   
     createdb your_db_name     
-    sudo chown postgres:postgres /tmp/odoo_restore/dump.sql    
     psql your_db_name < /tmp/odoo_restore/dump.sql   
     exit   
     sudo mkdir -p odoo18/.local/share/Odoo/filestore/retailed_db   
