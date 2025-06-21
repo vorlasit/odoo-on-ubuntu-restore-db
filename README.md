@@ -15,7 +15,5 @@
     sudo mkdir -p odoo18/.local/share/Odoo/filestore/retailed_db   
     sudo cp -r /opt/mnt/backups/filestore/retailed_db/* odoo18/.local/share/Odoo/filestore/retailed_db  
     sudo chown -R odoo18:odoo18 odoo18/.local/share/Odoo/filestore/retailed_db   
-    sudo chown -R odoo18:odoo18 enterprise18  
-    sudo chown -R odoo18:odoo18 Centralize-Retail  
-    sudo chmod -R 755 Centralize-Retail  
-    sudo chmod -R 755 enterprise18    
+    sudo chmod -R 777 Centralize-Retail  
+    sudo chmod -R 777 enterprise18    
